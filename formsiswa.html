@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<table>
+		<form action="jurnal7koneksi.php" method="POST" enctype="multipart/form-data">
+			<tr>
+				<td>Nim</td>
+				<td>:</td>
+				<td><input type="text" name="nim"></td>	
+			</tr>
+
+			<tr>
+				<td>Nama</td>
+				<td>:</td>
+				<td><input type="text" name="nama"></td>	
+			</tr>
+
+			<tr>
+				<td>Jenis Kelamin</td>
+				<td>:</td>
+				<td><input type="radio" name="jeniskelamin" value="laki-laki">Laki-Laki
+					<input type="radio" name="jeniskelamin" value="perempuan">Perempuan</td>
+			</tr>
+
+		<tr>
+			<td>Program Studi</td>
+			<td>:</td>
+			<td>
+				<select name="prodi">
+				<option value="MI">MI</option>
+				<option value="IF">IF</option>
+				<option value="TK">TK</option>
+				<option value="SM">SM</option>
+				<option value="KA">KA</option>
+				<option value="TT">TT</option>
+				<option value="MP">MP</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td>Fakultas</td>
+			<td>:</td>
+			<td>
+				<select name="fakultas">
+				<option value="FIT">FIT</option>
+				<option value="FIF">FIF</option>
+				<option value="FRI">FRI</option>
+				<option value="FIK">FIK</option>
+				<option value="FEB">FEB</option>
+				<option value="FKB">FKB</option>
+				<option value="FTE">FTE</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td>Asal</td>
+			<td>:</td>
+			<td><input type="text" name="asal"></td>
+		</tr>
+
+		<tr>
+			<td>Moto Hidup</td>
+			<td>:</td>
+			<td><input type="textarea" name="motohidup"></td>
+		</tr>
+
+		<tr>
+			<td><input type="submit" name="kirim" value="kirim"></td>
+		</tr>
+
+
+		</form>
+		</table>
+
+
+</body>
